@@ -25,6 +25,14 @@ app.use("/", authRoutes);
 const userRoutes = require("./routes/user.routes");
 app.use("/", userRoutes);
 
+const channelRoutes = require("./routes/channel.routes");
+app.use("/", channelRoutes);
+
+const streamRoutes = require("./routes/stream.routes");
+app.use("/", streamRoutes);
+
+
+
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes
 require("./error-handling")(app);
 

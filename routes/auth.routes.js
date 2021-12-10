@@ -68,6 +68,8 @@ router.post("/auth/signup", async (req, res, next) => {
     res.status(201).json({ user: user });
   } catch (error) {
     next(error);
+  /*  console.log(error)
+   res.status(500).json({message: error.message}) */
   }
 });
 

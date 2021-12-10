@@ -1,0 +1,40 @@
+[
+    {
+
+        "channelName": "RTP1",
+        "channelImage": "https://espalhafactos.com/wp-content/uploads/2016/12/RTP1-logo.jpg",
+        "genre": "generalist",
+        "platform": ["TV" ,"PC", "Mobile"],
+        "allowedCountries": ["pt"],
+         "channelWebsite": ""
+    },
+
+    {
+        "channelName": "RTP2",
+        "channelImage": "https://voxpoptv.files.wordpress.com/2017/09/novaimagemrtp_03.jpg",
+        "genre": "generalist",
+        "platform": ["TV" ,"PC", "Mobile"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": ""
+    },
+    
+    {
+        "channelName": "SIC",
+        "channelImage": "https://voxpoptv.files.wordpress.com/2017/09/novaimagemrtp_03.jpg",
+        "genre": "generalist",
+        "platform": ["TV" ,"PC", "Mobile"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": ""
+
+    },
+
+    {
+        "channelName": "TVI",
+        "channelImage": "https://voxpoptv.files.wordpress.com/2017/09/novaimagemrtp_03.jpg",
+        "genre": "generalist",
+        "platform": ["TV" ,"PC", "Mobile"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": ""
+    }
+
+]
