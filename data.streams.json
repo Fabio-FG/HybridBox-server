@@ -3,7 +3,7 @@
         "streamName": "Neflix",
         "streamImage": "https://toppng.com/uploads/preview/netflix-logo-png-11593869496jqso5gxgsy.png",
         "streamWebsite": "https://Neflix.com",
-        "streamPrice": 9.99,
+        "streamPrice":"9.99",
         "platform": [ "PC", "Mobile", "TV", "Tablet"],
         "allowedCountries": [ "global"]
     },

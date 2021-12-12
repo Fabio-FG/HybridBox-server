@@ -15,7 +15,7 @@ router.get('/api/users/current', isAuthenticated, async (req, res, next) => {
 
     res.status(200).json(user);
   } catch (error) {
-    next(error);
+    next(error.message);
   }
 })
 
@@ -36,7 +36,7 @@ router.put('/api/users/current', isAuthenticated, async (req, res, next) => {
 
     res.status(200).json(updatedUser);
   } catch (error) {
-    next(error);
+    next(error.message);
   }
 })
 

@@ -6,7 +6,7 @@ const streamSchema = new Schema(
         streamName: {type: String, required: true},
         streamImage: {type: String, default:'defaultImage.jpg'},
         streamWebsite: {type: String},
-        streamPrice: {Type: Number},
+        streamPrice: {type: Number, default:0 },
         platform: [ ],
         allowedCountries: [ ]
     }

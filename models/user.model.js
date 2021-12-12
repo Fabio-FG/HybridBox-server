@@ -7,7 +7,7 @@ const userSchema = new Schema(
     email: { type: String, unique: true, required: true },
     password: { type: String, required: true },
     role: { type: String, enum: ["admin", "user"], default: "user" },
-    profileImage: { type: String, default: "https://i.imgur.com/yWHfhiG.png" },
+    profileImage: { type: String, default: 'https://tinyurl.com/96bb7ks' },
     listOfChannels: [{ type: Schema.Types.ObjectId, ref:'Channel'} ],
     listOfStreams: [{ type: Schema.Types.ObjectId, ref:'Stream'} ]
   }
