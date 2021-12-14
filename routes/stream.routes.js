@@ -19,7 +19,7 @@ router.get("/streams", async (req, res, next) => {
  */
     //save all the data
     const allStreams = await Stream.find();
-    console.log("all Streams:", allStreams[0]);
+   
 
     //response to the server
     res.status(200).json(allStreams);
@@ -33,13 +33,14 @@ router.get("/streams", async (req, res, next) => {
 router.post("/streams/create", async (req, res, next) => {
   try {
     //get the data
-    const { streamName, streamPrice, streamWebsite } = req.body;
+    const { streamName, streamPrice, streamWebsite , description } = req.body;
 
     //create
     const createdStream = await Stream.create({
       streamName,
       streamPrice,
       streamWebsite,
+      description,
     });
 
     //response
@@ -84,7 +85,7 @@ router.put("/streams/:streamId", async(req, res, next) => {
        const { streamId } = req.params;
        
        //get the stream object and values to update
-       const { streamName, streamImage, streamPrice, streamWebsite, platform, allowedCountries } = req.body;
+       const { streamName, streamImage, streamPrice, streamWebsite, platform, allowedCountries, description } = req.body;
 
     //validate the id
     if(!mongoose.Types.ObjectId.isValid(streamId)){
@@ -93,7 +94,7 @@ router.put("/streams/:streamId", async(req, res, next) => {
     }
 
     //find and update the id
-    const updateStream = await Stream.findByIdAndUpdate(streamId, { streamName, streamImage, streamPrice, streamWebsite, platform, allowedCountries}, { new: true});
+    const updateStream = await Stream.findByIdAndUpdate(streamId, { streamName, streamImage, streamPrice, streamWebsite, platform, allowedCountries, description}, { new: true});
 
     //response to the server
     res.status(200).json(updateStream);

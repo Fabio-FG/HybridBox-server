@@ -17,6 +17,8 @@ const createChannels = async ()=> {
 createChannels();
 
 
+/* Sending the streams */
+
 const createStreams = async () => {
     const streamsFromDB = await Stream.insertMany(streams);
     console.log("Inserted on DB", streamsFromDB );

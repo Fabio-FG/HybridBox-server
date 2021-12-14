@@ -8,7 +8,8 @@ const streamSchema = new Schema(
         streamWebsite: {type: String},
         streamPrice: {type: Number, default:0 },
         platform: [ ],
-        allowedCountries: [ ]
+        allowedCountries: [ ],
+        description: {type: String}
     }
 );
 

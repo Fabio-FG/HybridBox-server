@@ -6,7 +6,9 @@
         "genre": "generalist",
         "platform": ["TV" ,"PC", "Mobile"],
         "allowedCountries": ["pt"],
-         "channelWebsite": ""
+         "channelWebsite": "",
+         "channelPrice": "0.00",
+         "description": "RTP1 (RTP um) is the main television channel of Rádio e Televisão de Portugal, the Portuguese public broadcasting corporation. It is Portugal's first channel, and was launched in 1957. For a brief period it was known and marketed as Canal 1 (Channel 1); it has long been commonly called this. It is one of the most watched television networks in the country."
     },
 
     {
@@ -15,26 +17,32 @@
         "genre": "generalist",
         "platform": ["TV" ,"PC", "Mobile"],
         "allowedCountries": ["pt"],
-        "channelWebsite": ""
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "RTP2 (RTP dois) is the second television channel of Rádio e Televisão de Portugal, the Portuguese public broadcasting corporation. Commonly referred as the Second (O Segundo), and for a time rebranded as &#Dois (Portuguese for two), this historically state-run television channel started its regular broadcasting on 25 December 1968. Nowadays, RTP2 is a public-service, advertising-free channel that serves as an alternative to RTP's main channel, RTP1."
     },
     
     {
         "channelName": "SIC",
-        "channelImage": "https://voxpoptv.files.wordpress.com/2017/09/novaimagemrtp_03.jpg",
+        "channelImage": "https://i.dlpng.com/static/png/6843131_preview.png",
         "genre": "generalist",
         "platform": ["TV" ,"PC", "Mobile"],
         "allowedCountries": ["pt"],
-        "channelWebsite": ""
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "SIC (acronym of full name Sociedade Independente de Comunicação) (Independent Communication Society) is a Portuguese television network and media company, which runs several television channels. Their flagship channel is the eponymous SIC, the third terrestrial television station in Portugal, launched on 6 October 1992. SIC is owned by Impresa, a Portuguese media conglomerate. It is one of the two private free-to-air channels in Portugal, among the seven terrestrial free-to-air channels broadcasting from the country. It too, is the most-watched channel in Portugal from 1995 to 2005, and again from 2019 to today."
 
     },
 
     {
         "channelName": "TVI",
-        "channelImage": "https://voxpoptv.files.wordpress.com/2017/09/novaimagemrtp_03.jpg",
+        "channelImage": "https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png",
         "genre": "generalist",
         "platform": ["TV" ,"PC", "Mobile"],
         "allowedCountries": ["pt"],
-        "channelWebsite": ""
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "TVI - initialism for Televisão Independente (Independent Television) - is Portugal's fourth terrestrial television channel, launched in 1993. It was the most watched channel in Portugal from 2005 to 2019.[1] It competes directly with SIC and RTP1. It is one of the two private free-to-air channels in Portugal, among the seven terrestrial free-to-air channels broadcasting from the country."
     }
 
 ]

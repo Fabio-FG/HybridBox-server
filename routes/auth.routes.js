@@ -68,7 +68,7 @@ router.post("/auth/signup", async (req, res, next) => {
     res.status(201).json({ user: user });
   } catch (error) {
     next(error);
-  /*  console.log(error)
+    /*  console.log(error)
    res.status(500).json({message: error.message}) */
   }
 });
@@ -103,7 +103,9 @@ router.post("/auth/login", async (req, res, next) => {
         email: foundUser.email,
         name: foundUser.name,
         role: foundUser.role, // 'admin' or 'user'
-        image: foundUser.image, 
+        image: foundUser.profileImage,
+        listOfChannels: foundUser.listOfChannels,
+        listOfStreams: foundUser.listOfStreams,
       };
 
       // Create a JWT with the payload
@@ -133,7 +135,7 @@ router.get("/auth/verify", isAuthenticated, async (req, res, next) => {
     // previously saved as the token payload
     res.status(200).json(req.payload);
   } catch (error) {
-    next(error);
+    next(error.message);
   }
 });
 

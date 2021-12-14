@@ -1,20 +1,22 @@
 [
     {
         "streamName": "Neflix",
-        "streamImage": "https://toppng.com/uploads/preview/netflix-logo-png-11593869496jqso5gxgsy.png",
+        "streamImage": "https://opportunitypanama.com/wp-content/uploads/2020/04/netflix-1.png",
         "streamWebsite": "https://Neflix.com",
         "streamPrice":"9.99",
         "platform": [ "PC", "Mobile", "TV", "Tablet"],
-        "allowedCountries": [ "global"]
+        "allowedCountries": [ "global"],
+        "description": "Netflix, Inc. is an American subscription streaming service and production company. Launched on August 29, 1997, it offers a library of films and television series through distribution deals as well as its own productions, known as Netflix Originals."
     },
 
     {
         "streamName": "Amazon Prime",
-        "streamImage":"https://toppng.com/uploads/preview/netflix-logo-png-11593869496jqso5gxgsy.png",
+        "streamImage":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Amazon_Prime_Video_logo.svg/1200px-Amazon_Prime_Video_logo.svg.png",
         "streamWebsite": "https://Amazon.com",
-        "streamPrice": 7.99,
+        "streamPrice": "7.99",
         "platform": [ "PC", "Mobile", "TV", "Tablet"],
-        "allowedCountries": [ "global"]
+        "allowedCountries": [ "global"],
+        "description": "Amazon Prime is a paid subscription program from Amazon which is available in various countries and gives users access to additional services otherwise unavailable or available at a premium to other Amazon customers."
 
     }
 ]
