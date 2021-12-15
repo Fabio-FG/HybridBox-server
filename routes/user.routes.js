@@ -51,15 +51,17 @@ router.post(
       // req.payload holds the user info that was encoded in JWT during login.
 
       const currentUser = req.payload;
+      const { isAdding } = req.body;
 
       console.log(currentUser);
-      const { channelId } = req.params;
+      const { channelId, streamId } = req.params;
 
       const theUser = await User.findById(currentUser._id);
 
       console.log("listofchannels------------", theUser.listOfChannels);
+      console.log("listofStreams----------", theUser.listOfStreams);
 
-      if (!theUser.listOfChannels.includes(channelId)) {
+      if (isAdding && !theUser.listOfChannels.includes(channelId)) {
         const updatedUser = await User.findByIdAndUpdate(
           theUser._id,
           { $push: { listOfChannels: channelId } },
@@ -67,13 +69,22 @@ router.post(
         );
 
         res.status(200).json(updatedUser);
+      } else if (!isAdding && theUser.listOfChannels.includes(channelId)) {
+        const updatedUser = await User.findByIdAndUpdate(
+          theUser._id,
+          { $pull: { listOfChannels: channelId } },
+          { new: true }
+        );
+        res.status(200).json(updatedUser);
       } else {
-        console.log("Channel already on the list!");
-        res.status(304).json({ message: "Channel already on the list!" });
+        res.status(304).json({ message: "you can't add remove the channel" });
       }
     } catch (error) {
       next(error.message);
     }
+
+    //This is the update for the stream list
+    
   }
 );
 
