@@ -15,7 +15,8 @@ const cookieParser = require("cookie-parser");
 // unless the request if from the same domain, by default express wont accept POST requests
 const cors = require("cors");
 
-const REACT_APP = process.env.ORIGIN || "http://localhost:3000";
+//
+const REACT_APP = process.env.FRONTEND_URL || "http://localhost:3000";
 
 // Middleware configuration
 module.exports = (app) => {
@@ -24,12 +25,13 @@ module.exports = (app) => {
   app.set("trust proxy", 1);
 
   // controls a very specific header to pass headers from the frontend
-  app.use(
-    cors({
-      credentials: true,
-      origin: [REACT_APP],
-    })
-  );
+  //  app.use(
+  //    cors({
+  //      credentials: true,
+  //      origin: [REACT_APP],
+  //    })
+  //  );
+  app.use(cors());
 
   // In development environment the app logs
   app.use(logger("dev"));
