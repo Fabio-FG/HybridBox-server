@@ -12,7 +12,7 @@ const { isAuthenticated } = require("./../middleware/jwt.middleware");
 
 //GET all Stream services available from the DB
 
-router.get("/streams", async (req, res, next) => {
+router.get("/api/streams", async (req, res, next) => {
   try {
     /* //get all the data
     const { streamName , streamImage, streamPrice } = req.body; 
@@ -30,7 +30,7 @@ router.get("/streams", async (req, res, next) => {
 
 //Post Create new Streaming Services
 
-router.post("/streams/create", async (req, res, next) => {
+router.post("/api/streams/create", async (req, res, next) => {
   try {
     //get the data
     const { streamName, streamPrice, streamWebsite , description } = req.body;
@@ -52,7 +52,7 @@ router.post("/streams/create", async (req, res, next) => {
 
 //Get a specific streaming service ID
 
-router.get("/streams/:streamId", async (req, res, next) => {
+router.get("/api/streams/:streamId", async (req, res, next) => {
   //get the id
   try {
     //get the id
@@ -78,7 +78,7 @@ router.get("/streams/:streamId", async (req, res, next) => {
 
 //Update a stream using PUT
 
-router.put("/streams/:streamId", async(req, res, next) => {
+router.put("/api/streams/:streamId", async(req, res, next) => {
    try{
 
        //find the id
@@ -110,7 +110,7 @@ router.put("/streams/:streamId", async(req, res, next) => {
 
 //DELETE  streams
 
-router.delete("/streams/:streamId", async (req, res, next) => {
+router.delete("/api/streams/:streamId", async (req, res, next) => {
     try{
         //get the id to delete
     const { streamId } = req.params;
