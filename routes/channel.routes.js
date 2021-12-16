@@ -8,7 +8,7 @@ const { isAuthenticated } = require("./../middleware/jwt.middleware");
 
 //GET all existing channels
 
-router.get("/channels", async (req, res, next) => {
+router.get("/api/channels", async (req, res, next) => {
   try {
     /* const { name, channelImage, genre } = req.body */
 
@@ -24,7 +24,7 @@ router.get("/channels", async (req, res, next) => {
 
 // POST - create/add channels
 
-router.post("/channels", async (req, res, next) => {
+router.post("/api/channels", async (req, res, next) => {
   try {
     //get the data
     const { channelName, genre, description, channelPrice } = req.body;
@@ -47,7 +47,7 @@ router.post("/channels", async (req, res, next) => {
 
 //GET ->  router.get(/channel/:channelId) specific channel
 
-router.get("/channels/:channelId", async (req, res, next) => {
+router.get("/api/channels/:channelId", async (req, res, next) => {
   try {
     const { channelId } = req.params;
 
@@ -70,7 +70,7 @@ router.get("/channels/:channelId", async (req, res, next) => {
 
 //PUT - Update a specific channel
 
-router.put("/channels/:channelId", async (req, res, next) => {
+router.put("/api/channels/:channelId", async (req, res, next) => {
   try {
     //get the channel ID
     const { channelId } = req.params;
@@ -113,7 +113,7 @@ router.put("/channels/:channelId", async (req, res, next) => {
 
 //DELETE - Delete a channel
 
-router.delete("/channels/delete/:channelId", async (req, res, next) => {
+router.delete("/api/channels/delete/:channelId", async (req, res, next) => {
   try {
     //get the id
     const { channelId } = req.params;
