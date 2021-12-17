@@ -13,7 +13,6 @@ router.get("/api/channels", async (req, res, next) => {
     /* const { name, channelImage, genre } = req.body */
 
     const allChannels = await Channel.find();
-    console.log("allChannels", allChannels);
 
     //server response
     res.status(200).json(allChannels);
@@ -36,7 +35,6 @@ router.post("/api/channels", async (req, res, next) => {
       description,
       channelPrice,
     });
-    console.log("Created", newChannel);
 
     //display the response
     res.status(201).json(newChannel);
@@ -59,7 +57,6 @@ router.get("/api/channels/:channelId", async (req, res, next) => {
 
     //find the id
     const foundChannel = await Channel.findById(channelId);
-    console.log("Found Id is:", foundChannel);
 
     //response to the server
     res.status(200).json(foundChannel);

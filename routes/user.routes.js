@@ -53,12 +53,9 @@ router.post(
       const currentUser = req.payload;
       const { isAdding } = req.body;
 
-      console.log(currentUser);
       const { channelId } = req.params;
 
       const theUser = await User.findById(currentUser._id);
-
-      console.log("listofchannels------------", theUser.listOfChannels);
 
       if (isAdding && !theUser.listOfChannels.includes(channelId)) {
         const updatedUser = await User.findByIdAndUpdate(
@@ -96,11 +93,8 @@ router.post(
       const currentUser = req.payload;
       const { isAdding } = req.body;
 
-      console.log(currentUser);
       const { streamId } = req.params;
       const theUser = await User.findById(currentUser._id);
-
-      console.log("listofStreams----------", theUser.listOfStreams);
 
       if (isAdding && !theUser.listOfStreams.includes(streamId)) {
         const updatedUser = await User.findByIdAndUpdate(
@@ -121,7 +115,7 @@ router.post(
         res.status(304).json({ message: "you can't add remove the channel" });
       }
     } catch (error) {
-      console.log(error);
+      next(error.message);
     }
   }
 );
