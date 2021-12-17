@@ -350,5 +350,139 @@
         "channelWebsite": "",
         "channelPrice": "0.01",
         "description": "Canal Hollywood is a movies cable channel available in Spain and Portugal. For most of its history it was a single channel airing for all Iberia with feeds in Portuguese or Spanish, it later split. In 2011 was created a version in HD in Spain and Portugal." 
+    },
+
+    {
+        "channelName": "AXN Movies",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/axnmovies_110x110.jpg",
+        "genre": "Movies",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.02",
+        "description": "AXN Movies, previously known as AXN Black, is a channel operated by Sony Pictures Television International Networks Europe. Its programming is basically focused on action and crime television series and movies. The channel was first launched in Portugal, Angola and Mozambique on May 9, 2011 and replaced Animax." 
+    },
+
+    {
+        "channelName": "AMC",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/amc_110x110.jpg",
+        "genre": "Movies",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.10",
+        "description": "AMC is an American multinational basic cable television channel that is the flagship property of AMC Networks. The channel's programming primarily consists of theatrically released films, along with a limited amount of original programming." 
+    },
+
+    {
+        "channelName": "FOX",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/fox_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "Fox Portugal (marketed and commonly known as Fox) is a Portuguese pay television channel. It broadcasts syndicated TV shows such as Hawaii Five-0, Blindspot, Bones, The Walking Dead, The Simpsons, and NCIS: Los Angeles. It is owned by 20th Century Fox." 
+    },
+
+    {
+        "channelName": "FOX Movies",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/fox_movies_110x110.jpg",
+        "genre": "Movies",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.02",
+        "description": "Fox Movies is a Portuguese pay television movie channel owned by Fox Networks Group Portugal. It was launched on 1 July 2011. The channel airs the most recent and successful movies airing many genres including drama, comedy, science fiction, action and horror." 
+    },
+
+    {
+        "channelName": "FOX Comedy",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/foxcomedy_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "Fox Comedy is a Portuguese pay television channel that broadcasts comedy series and films, owned by Fox Networks Group. Programs are mostly imported, mainly from the United States, occasionally also Canada and the United Kingdom." 
+    },
+
+    {
+        "channelName": "FOX Crime",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/fox_crime_110x110.jpg",
+        "genre": "Documentary",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "Fox Crime is a television network, launched by the Fox Networks Group, which airs across several countries of Europe, Africa and Asia such as Italy, Portugal, Serbia, Bulgaria, and Turkey." 
+    },
+
+    {
+        "channelName": "SYFY",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/syfy_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.45",
+        "description": "Syfy is an American basic cable channel owned by the NBCUniversal Television and Streaming division of Comcast's NBCUniversal through NBCUniversal Cable Entertainment. Launched on September 24, 1992, the channel deals in programming relating to the science fiction, horror, and fantasy genres." 
+    },
+
+    {
+        "channelName": "TVCine Top",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/tvc1_hd_110x110.jpg",
+        "genre": "Movies",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "2.45",
+        "description": "TVCine is a Portuguese premium television brand used on four movie channels, operated by NOS. They showcase recent movies and premieres from all the major studios, as well as comedy, action, classic and old movies." 
+    },
+
+    {
+        "channelName": "TVCine Edition",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/tvc2_hd_110x110.jpg",
+        "genre": "Movies",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "2.45",
+        "description": "TVCine is a Portuguese premium television brand used on four movie channels, operated by NOS. They showcase recent movies and premieres from all the major studios, as well as comedy, action, classic and old movies." 
+    },
+
+    {
+        "channelName": "TVCine Emotion",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/tvc3_hd_110x110.jpg",
+        "genre": "Movies",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "2.45",
+        "description": "TVCine is a Portuguese premium television brand used on four movie channels, operated by NOS. They showcase recent movies and premieres from all the major studios, as well as comedy, action, classic and old movies." 
+    },
+
+    {
+        "channelName": "TVCine Action",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/tvc4_hd_110x110.jpg",
+        "genre": "Movies",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "2.45",
+        "description": "TVCine is a Portuguese premium television brand used on four movie channels, operated by NOS. They showcase recent movies and premieres from all the major studios, as well as comedy, action, classic and old movies." 
+    },
+
+    {
+        "channelName": "Playboy TV",
+        "channelImage": "https://www.meo.pt/PublishingImages/canais/playboy-tv.png",
+        "genre": "Adult",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "4.50",
+        "description": "Playboy TV is a pay television channel based in the United States." 
     }
+
+
 ]

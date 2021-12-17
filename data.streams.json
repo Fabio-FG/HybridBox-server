@@ -40,5 +40,16 @@
         "allowedCountries": [ "pt", "en"],
         "description": "Disney+ is an American subscription video on-demand over-the-top streaming service owned and operated by the Media and Entertainment Distribution division of The Walt Disney Company."
 
+    },
+
+    {
+        "streamName": "Hulu",
+        "streamImage":"https://findthatlogo.com/wp-content/gallery/streaming-tv-logo-collection/hulu-logo.gif",
+        "streamWebsite": "https://www.hulu.com",
+        "streamPrice": "4.20",
+        "platform": [ "PC", "Mobile", "TV", "Tablet"],
+        "allowedCountries": [ "us"],
+        "description": "Hulu is an American streaming platform. Launched on October 29, 2007, it offers a library of films and television series from networks such as CBS, ABC, NBC, or FX, as well as Hulu original content. Hulu is currently only available in the United States."
+
     }
 ]

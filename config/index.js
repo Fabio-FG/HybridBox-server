@@ -25,13 +25,16 @@ module.exports = (app) => {
   app.set("trust proxy", 1);
 
   // controls a very specific header to pass headers from the frontend
-  //  app.use(
-  //    cors({
-  //      credentials: true,
-  //      origin: [REACT_APP],
-  //    })
-  //  );
-  app.use(cors());
+  app.use(
+    cors({
+      credentials: true,
+      origin: [REACT_APP],
+      methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+      preflightContinue: false,
+      optionsSuccessStatus: 204,
+    })
+  );
+  /*   app.use(cors()); */
 
   // In development environment the app logs
   app.use(logger("dev"));
