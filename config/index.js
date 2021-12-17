@@ -29,9 +29,7 @@ module.exports = (app) => {
     cors({
       credentials: true,
       origin: [REACT_APP],
-      methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-      preflightContinue: false,
-      optionsSuccessStatus: 204,
+      
     })
   );
   /*   app.use(cors()); */
