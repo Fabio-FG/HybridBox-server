@@ -1,7 +1,7 @@
 [
     {
         "streamName": "Neflix",
-        "streamImage": "https://opportunitypanama.com/wp-content/uploads/2020/04/netflix-1.png",
+        "streamImage": "https://findthatlogo.com/wp-content/gallery/streaming-tv-logo-collection/netflix-logo.gif",
         "streamWebsite": "https://Neflix.com",
         "streamPrice":"9.99",
         "platform": [ "PC", "Mobile", "TV", "Tablet"],
@@ -11,12 +11,34 @@
 
     {
         "streamName": "Amazon Prime",
-        "streamImage":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Amazon_Prime_Video_logo.svg/1200px-Amazon_Prime_Video_logo.svg.png",
+        "streamImage":"https://findthatlogo.com/wp-content/gallery/streaming-tv-logo-collection/amazon-prime-video-logo.gif",
         "streamWebsite": "https://Amazon.com",
         "streamPrice": "7.99",
         "platform": [ "PC", "Mobile", "TV", "Tablet"],
         "allowedCountries": [ "global"],
         "description": "Amazon Prime is a paid subscription program from Amazon which is available in various countries and gives users access to additional services otherwise unavailable or available at a premium to other Amazon customers."
+
+    },
+
+    {
+        "streamName": "HBO MAX",
+        "streamImage":"https://s2.glbimg.com/ufsa1PDb45AtxsbG1yz42J4bduw=/0x0:1584x890/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/M/X/tAjAUsQwuedBBwKyx6mg/hbo-max-press-on-white-horiz-300dpi.jpg",
+        "streamWebsite": "https://hbo.com",
+        "streamPrice": "6.99",
+        "platform": [ "PC", "Mobile", "TV", "Tablet"],
+        "allowedCountries": [ "us"],
+        "description": "HBO Max is an American subscription-based video on demand service owned by AT&T's WarnerMedia, through its WarnerMedia Direct subsidiary."
+
+    },
+
+    {
+        "streamName": "Disney +",
+        "streamImage":"https://findthatlogo.com/wp-content/gallery/streaming-tv-logo-collection/disney-plus-logo.gif",
+        "streamWebsite": "https://www.disneyplus.com/en-pt",
+        "streamPrice": "8.19",
+        "platform": [ "PC", "Mobile", "TV", "Tablet"],
+        "allowedCountries": [ "pt", "en"],
+        "description": "Disney+ is an American subscription video on-demand over-the-top streaming service owned and operated by the Media and Entertainment Distribution division of The Walt Disney Company."
 
     }
 ]

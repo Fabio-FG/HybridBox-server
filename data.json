@@ -2,8 +2,8 @@
     {
 
         "channelName": "RTP1",
-        "channelImage": "https://espalhafactos.com/wp-content/uploads/2016/12/RTP1-logo.jpg",
-        "genre": "generalist",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/rtp1_110x110.jpg",
+        "genre": "Generalist",
         "platform": ["TV" ,"PC", "Mobile"],
         "allowedCountries": ["pt"],
          "channelWebsite": "",
@@ -13,8 +13,8 @@
 
     {
         "channelName": "RTP2",
-        "channelImage": "https://voxpoptv.files.wordpress.com/2017/09/novaimagemrtp_03.jpg",
-        "genre": "generalist",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/rtp2_110x110.jpg",
+        "genre": "Generalist",
         "platform": ["TV" ,"PC", "Mobile"],
         "allowedCountries": ["pt"],
         "channelWebsite": "",
@@ -24,8 +24,8 @@
     
     {
         "channelName": "SIC",
-        "channelImage": "https://i.dlpng.com/static/png/6843131_preview.png",
-        "genre": "generalist",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/sic_110x110.jpg",
+        "genre": "Generalist",
         "platform": ["TV" ,"PC", "Mobile"],
         "allowedCountries": ["pt"],
         "channelWebsite": "",
@@ -36,13 +36,319 @@
 
     {
         "channelName": "TVI",
-        "channelImage": "https://upload.wikimedia.org/wikipedia/commons/2/24/Log%C3%B3tipo_TVI.png",
-        "genre": "generalist",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/tvi_110x110.jpg",
+        "genre": "Generalist",
         "platform": ["TV" ,"PC", "Mobile"],
         "allowedCountries": ["pt"],
         "channelWebsite": "",
         "channelPrice": "0.00",
-        "description": "TVI - initialism for Televisão Independente (Independent Television) - is Portugal's fourth terrestrial television channel, launched in 1993. It was the most watched channel in Portugal from 2005 to 2019.[1] It competes directly with SIC and RTP1. It is one of the two private free-to-air channels in Portugal, among the seven terrestrial free-to-air channels broadcasting from the country."
-    }
+        "description": "TVI - initialism for Televisão Independente (Independent Television) - is Portugal's fourth terrestrial television channel, launched in 1993. It was the most watched channel in Portugal from 2005 to 2019. It competes directly with SIC and RTP1. It is one of the two private free-to-air channels in Portugal, among the seven terrestrial free-to-air channels broadcasting from the country."
+    },
+    {
+        "channelName": "SIC Notícias",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/sicnoticiashd-110x110.jpg",
+        "genre": "News",
+        "platform": ["TV"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "SIC Notícias is the cable news channel of the Portuguese television network SIC (Sociedade Independente de Comunicação) and the second thematic channel of the station. It is available on basic cable and satellite. It replaced CNL (Canal de Notícias de Lisboa), a Lisbon region independent cable news channel owned by TV Cabo, on January 8, 2001. Since the end of 2003, SIC Notícias has also been available in Angola and Mozambique via satellite or cable."
+    },
 
+    {
+        "channelName": "SIC Radical",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/sicradicalhd-110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "SIC Radical is an entertainment channel targeted at teens and young adults. SIC Radical programins have shift through its history, Curto Circuito being its iconic TV show, being present along with sci-fi series, anime, britcoms, talk-shows, erotic programming and amateur television."
+    },
+
+    {
+        "channelName": "SIC Mulher",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/sic_mulher_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "SIC Mulher is a Portuguese basic cable and satellite television channel owned by Sociedade Independente de Comunicação (SIC) and launched on March 8, 2003. Its target audience are women." 
+    },
+
+    {
+        "channelName": "SIC Caras",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/sic_caras_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "SIC Caras is a Portuguese digital cable and satellite television channel owned by SIC. It features talk-shows, biographies and documentaries programming related to celebrities and royalty, reflecting Caras magazine content. Passadeira Vermelha (Red Carpet), is the primetime and flagship show, a SIC Caras original, while almost half of programming is imported, ranging from celebrity-related documentaries to U.S. talk shows (Martha Stewart, Miss pageants, Victoria's Secret). In Portugal, initially the channel had a exclusivity contract with NOS." 
+    },
+
+    {
+        "channelName": "CMTV",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/cmtv_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "Correio da Manhã TV (CMTV) is a private Portuguese generalist channel, with a strong focus on news. It is operated by Cofina, owner of Correio da Manhã, a notable Portuguese tabloid and the most read newspaper in Portugal. It is available in basic fiber and satellite. The channel launched in March 2013 as an exclusive in Portugal to MEO. The channel is accused of being sensationalist, as well as its parent newspaper." 
+    },
+
+    {
+        "channelName": "CNN Portugal",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/tvi24hd_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "CNN Portugal is a Portuguese basic cable and satellite television news channel owned by Media Capital, launched on 22 November 2021. Media Capital has a licensing agreement with original CNN channel owned by AT&T's WarnerMedia. Its competitors include SIC Notícias, RTP3 and news-focused CMTV." 
+    },
+
+    {
+        "channelName": "RTP3",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/rtp3hd_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "RTP3 is a Portuguese 24-hour public-service news channel owned-and-operated by Rádio e Televisão de Portugal. The channel is available on basic cable and satellite, as well as a free-to-air channel on terrestrial television." 
+    },
+
+    {
+        "channelName": "Euronews",
+        "channelImage": "https://www.nos.pt/RefData/SiteCollectionImages/Canais/Logos%20110%20x%20110/euronews_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV", "PC"],
+        "allowedCountries": ["pt", "fr"],
+        "channelWebsite": "",
+        "channelPrice": "0.05",
+        "description": "Euronews is a French-based pan-European television news network, headquartered in Lyon, France. The network began broadcasting on 1 January 1993 and aimed to cover world news from the European perspective." 
+    },
+
+    {
+        "channelName": "Sky News",
+        "channelImage": "https://www.nos.pt/RefData/SiteCollectionImages/Canais/Logos%20110%20x%20110/sky_news_180_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV", "PC", "Mobile"],
+        "allowedCountries": ["uk"],
+        "channelWebsite": "",
+        "channelPrice": "0.05",
+        "description": "Sky News is a British free-to-air television news channel and organisation. Sky News is distributed via a radio news service, and through online channels. It is owned by Sky Group, a division of Comcast." 
+    },
+
+    {
+        "channelName": "AR TV",
+        "channelImage": "https://www.nos.pt/RefData/SiteCollectionImages/Canais/Logos%20110%20x%20110/artv_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV", "PC", "Mobile"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.24",
+        "description": "ARTV, also known as Canal Parlamento, is a Portuguese legislature television station that broadcast events from the Assembly of the Republic." 
+    },
+
+    {
+        "channelName": "Phoenix News",
+        "channelImage": "https://www.nos.pt/RefData/SiteCollectionImages/Canais/Logos%20110%20x%20110/phoenix_info_news_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV", "PC", "Mobile"],
+        "allowedCountries": ["ch"],
+        "channelWebsite": "",
+        "channelPrice": "0.08",
+        "description": "Phoenix Chinese News and Entertainment or Phoenix CNE Channel is one of the six channels that Phoenix Television operates. It was launched in August 1999 in order to serve Chinese viewers in Europe.鳳凰衛視歐洲台（英語 - Phoenix CNE Channel）是凤凰卫视开播的第三个频道，于伦敦时间1999年8月开播。该频道通过欧洲通信卫星，以有線電視、寬頻電視及衛星電視形式覆盖歐洲及非洲、大洋洲等國家和地區。2009年4月1日落地日本境内区，透过日本通信卫星覆盖，由株式会社大富代理." 
+    },
+
+    {
+        "channelName": "BBC World News",
+        "channelImage": "https://www.nos.pt/RefData/SiteCollectionImages/Canais/Logos%20110%20x%20110/bbc_world_news_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV", "PC", "Mobile"],
+        "allowedCountries": ["uk"],
+        "channelWebsite": "",
+        "channelPrice": "0.07",
+        "description": "BBC World News is an international English-language pay television network, operated under the BBC Global News Limited division of the BBC, which is a public corporation of the UK government's Department for Digital, Culture, Media and Sport." 
+    },
+
+    {
+        "channelName": "RT",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/rt_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV", "PC", "Mobile"],
+        "allowedCountries": ["ru", "en", "ar", "fr", "ger"],
+        "channelWebsite": "",
+        "channelPrice": "0.04",
+        "description": "RT is a Russian state-controlled international television network funded by the federal tax budget of the Russian government. It operates pay television channels directed to audiences outside of Russia, as well as providing Internet content in English, Spanish, French, German, Arabic, and Russian." 
+    },
+
+    {
+        "channelName": "CNBC",
+        "channelImage": "https://www.nos.pt/RefData/SiteCollectionImages/Canais/Logos%20110%20x%20110/cnbc_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV", "PC"],
+        "allowedCountries": ["us"],
+        "channelWebsite": "",
+        "channelPrice": "0.02",
+        "description": "CNBC is an American pay television business news channel owned by NBCUniversal News Group, a division of NBCUniversal, with both indirectly owned by Comcast. Headquartered in Englewood Cliffs, New Jersey, the network primarily carries business day coverage of U.S. and international financial markets." 
+    },
+
+    {
+        "channelName": "STV Notícias",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/stv_noticias_110x110.jpg",
+        "genre": "News",
+        "platform": ["TV", "PC"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.01",
+        "description": "STV Notícias is a 24-hour television news channel of the Mozambican television network STV, the first private Mozambican network which also owns the influential Mozambican newspaper O País. It airs in the Portuguese language and it is available in cable and satellite." 
+    },
+
+    {
+        "channelName": "Porto Canal",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/porto_canal_110x110.jpg",
+        "genre": "Generalist",
+        "platform": ["TV", "PC"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.01",
+        "description": "Porto Canal is a Portuguese pay television channel broadcasting from northern Portugal based in Matosinhos. Launched on 29 September 2006, it replaced former NTV which transformed into RTPN, Radiotelevisão Portuguesa's news channel." 
+    },
+
+    {
+        "channelName": "RTP África",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/rtp_africa_110x110.jpg",
+        "genre": "Generalist",
+        "platform": ["TV", "PC", "Mobile"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "TP África is a Portuguese pay television channel available in the Portuguese-speaking African countries, where it is available as a basic cable and satellite channel." 
+    },
+
+    {
+        "channelName": "RTP Madeira",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/rtpmadeira_110x110.jpg",
+        "genre": "Generalist",
+        "platform": ["TV", "PC", "Mobile"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "RTP Madeira is a regional Portuguese television channel operated by the Rádio e Televisão de Portugal. It is broadcast in the Madeira Islands and via cable and satellite in the Azores Islands and continental Portugal. RTP Madeira serves as a regional opt-out to the national public television channel, RTP1." 
+    },
+
+    {
+        "channelName": "RTP Açores",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/RTP_Acores_110x110.jpg",
+        "genre": "Generalist",
+        "platform": ["TV", "PC", "Mobile"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "RTP Açores is a Portuguese regional television channel operated in the Autonomous Region of the Azores by the national broadcaster, RTP. The channel began broadcasting programmes produced at its studios in Ponta Delgada on 10 August 1975." 
+    },
+
+    {
+        "channelName": "Disney Channel",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/disneychannelhd_110x110.jpg",
+        "genre": "Children",
+        "platform": ["TV"],
+        "allowedCountries": ["pt", "en"],
+        "channelWebsite": "",
+        "channelPrice": "0.50",
+        "description": "Disney Channel is a German free-to-air television channel owned by The Walt Disney Company GmbH, itself owned by The Walt Disney Company. The channel is based in Munich. Disney Channel is a Portuguese pay television channel." 
+    },
+
+    {
+        "channelName": "Nickelodeon",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/nickelodeon_110x110.jpg",
+        "genre": "Children",
+        "platform": ["TV", "PC"],
+        "allowedCountries": ["pt", "en" , "ger"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "Nick is a German free-to-air television channel, part of the international Nickelodeon franchise. Originally launched in 1995, and relaunched in 2005, Nickelodeon is based in Berlin. The channel is available on subscription services and as an unscrambled, free-to-air satellite signal." 
+    },
+
+    {
+        "channelName": "Canal Panda",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/panda_110x110.jpg",
+        "genre": "Children",
+        "platform": ["TV", "PC"],
+        "allowedCountries": ["pt", "es"],
+        "channelWebsite": "",
+        "channelPrice": "0.25",
+        "description": "Canal Panda is an Iberian pay television channel, the first one dedicated to kids programming, mostly animated series for children aged 6 to 14. The channel was founded in 1996 as Panda Club in Spain and Portugal, but the name was changed to Canal Panda in 1997." 
+    },
+
+    {
+        "channelName": "Panda Biggs",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/panda_biggs_110x110.jpg",
+        "genre": "Children",
+        "platform": ["TV", "PC"],
+        "allowedCountries": ["pt", "es"],
+        "channelWebsite": "",
+        "channelPrice": "0.10",
+        "description": "Biggs is a Portuguese basic cable and satellite television targeted to children, teens and youth ages 8 to 14. It was launched on 1 December 2009 on the NOS platform. It airs live-action shows, films, anime and cartoon shows. It also used to air archived programs from Canal Panda." 
+    },
+
+    {
+        "channelName": "SIC K",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/sick_110x110.jpg",
+        "genre": "Children",
+        "platform": ["TV", "PC"],
+        "allowedCountries": ["pt"],
+        "channelWebsite": "",
+        "channelPrice": "0.03",
+        "description": "SIC K is a Portuguese television channel aimed at children aged 7–14. Owned by Sociedade Independente de Comunicação, it was launched on 18 December 2009 on the MEO platform." 
+    },
+
+    {
+        "channelName": "Baby TV",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/babytv_110x110.jpg",
+        "genre": "Children",
+        "platform": ["TV"],
+        "allowedCountries": ["pt" , "uk"],
+        "channelWebsite": "",
+        "channelPrice": "0.03",
+        "description": "BabyTV is a multilingual international television channel for babies and toddlers under the age of 3 and their parents, owned by Fox Networks Group, a subsidiary of the International Operations division of The Walt Disney Company." 
+    },
+
+    {
+        "channelName": "Cartoon Network",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/cartoon_network_110x110.jpg",
+        "genre": "Children",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.00",
+        "description": "Cartoon Network is an American cable television channel owned by The Cartoon Network, Inc., a division of the Kids, Young Adults and Classics division of Warner Bros. Entertainment, itself a subsidiary of AT&T's WarnerMedia through its Studios and Networks Group division." 
+    },
+
+    {
+        "channelName": "Super RTL",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/super_rtl_110x110.jpg",
+        "genre": "Children",
+        "platform": ["TV"],
+        "allowedCountries": ["ger"],
+        "channelWebsite": "",
+        "channelPrice": "0.05",
+        "description": "Super RTL is a German free-to-air television network owned by the RTL Group. The channel originally launched in 1995 as a joint venture between RTL Group predecessor company CLT-UFA and Disney's Buena Vista International Television Investments division." 
+    },
+
+    {
+        "channelName": "Hollywood",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/canal_hollywood_110x110.jpg",
+        "genre": "Movies",
+        "platform": ["TV"],
+        "allowedCountries": ["en" , "pt", "es"],
+        "channelWebsite": "",
+        "channelPrice": "0.01",
+        "description": "Canal Hollywood is a movies cable channel available in Spain and Portugal. For most of its history it was a single channel airing for all Iberia with feeds in Portuguese or Spanish, it later split. In 2011 was created a version in HD in Spain and Portugal." 
+    }
 ]
