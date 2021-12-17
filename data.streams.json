@@ -1,8 +1,8 @@
 [
     {
-        "streamName": "Neflix",
+        "streamName": "Netflix",
         "streamImage": "https://findthatlogo.com/wp-content/gallery/streaming-tv-logo-collection/netflix-logo.gif",
-        "streamWebsite": "https://Neflix.com",
+        "streamWebsite": "https://Netflix.com",
         "streamPrice":"9.99",
         "platform": [ "PC", "Mobile", "TV", "Tablet"],
         "allowedCountries": [ "global"],
