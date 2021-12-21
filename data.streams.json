@@ -51,5 +51,16 @@
         "allowedCountries": [ "us"],
         "description": "Hulu is an American streaming platform. Launched on October 29, 2007, it offers a library of films and television series from networks such as CBS, ABC, NBC, or FX, as well as Hulu original content. Hulu is currently only available in the United States."
 
+    },
+
+    {
+        "streamName": "Crunchyroll",
+        "streamImage":"https://logosmarcas.net/wp-content/uploads/2021/03/Crunchyroll-Emblema.jpg",
+        "streamWebsite": "https://www.crunchyroll.com/",
+        "streamPrice": "6.50",
+        "platform": [ "PC", "Mobile", "TV", "Tablet"],
+        "allowedCountries": [ "worldwide"],
+        "description": "Crunchyroll, Inc. is an American distributor, publisher, production and licensing company focused on streaming anime, manga, and dorama."
+
     }
 ]

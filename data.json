@@ -474,6 +474,127 @@
     },
 
     {
+        "channelName": "MTV",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/mtv_portugal_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.50",
+        "description": "MTV is an American cable channel that launched on August 1, 1981. Based in New York City, it serves as the flagship property of the MTV Entertainment Group, part of ViacomCBS Domestic Media Networks, a division of ViacomCBS." 
+    },
+
+    {
+        "channelName": "TLC",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/tlc_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.40",
+        "description": "TLC is an American pay television channel owned by Discovery, Inc. Initially focused on educational and learning content, by the late 1990s the network began to primarily focus towards reality series involving lifestyles, family life, and personal stories." 
+    },
+
+    {
+        "channelName": "TV Globo",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/globohd_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.30",
+        "description": "TV Globo, formerly known as Rede Globo, is a Brazilian free-to-air television network, launched by media proprietor Roberto Marinho on 26 April 1965. It is owned by media conglomerate Grupo Globo, being by far the largest of its holdings." 
+    },
+
+    {
+        "channelName": "Travel Channel",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/travel_channel_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.50",
+        "description": "Travel Channel is an American pay television channel owned by Discovery, Inc. which had previously owned the channel from 1997 to 2007. " 
+    },
+
+    {
+        "channelName": "Food Network",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/food_network_hd_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "1.50",
+        "description": "Food Network is an American basic cable channel owned by Television Food Network, G.P., a joint venture and general partnership between Discovery, Inc. and Nexstar Media Group. " 
+    },
+
+    {
+        "channelName": "Discovery Channel",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/discovery_channel_110x110.jpg",
+        "genre": "Documentary",
+        "platform": ["TV" , "PC"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "1.10",
+        "description": "Discovery Channel is an American multinational pay television network and flagship channel owned by Discovery, Inc., a publicly traded company run by CEO David Zaslav." 
+    },
+
+    {
+        "channelName": "National Geographic",
+        "channelImage": "https://www.nos.pt/RefData/SiteCollectionImages/Canais/Logos%20110%20x%20110/national_geographic_110x110.jpg",
+        "genre": "Documentary",
+        "platform": ["TV" , "PC"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "1.30",
+        "description": "National Geographic is an American pay television network and flagship channel owned by National Geographic Partners, a joint venture between The Walt Disney Company and the National Geographic Society, with the operational management handled by Walt Disney Television." 
+    },
+
+    {
+        "channelName": "Sporting TV",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/sportingtv_110x110.jpg",
+        "genre": "Sports",
+        "platform": ["TV" , "PC"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.76",
+        "description": "Sporting TV is the television channel of Sporting Clube de Portugal. In open signal, the channel is present in the operators MEO, NOS, Vodafone and Nowo. The channel broadcasts live Sporting games at home in the Academia Sporting and in Pavilhão João Rocha." 
+    },
+
+    {
+        "channelName": "Eurosport 1",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/eurosport_110x110.jpg",
+        "genre": "Sports",
+        "platform": ["TV" , "PC"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "0.50",
+        "description": "Eurosport is a pan-European television sports network and a subsidiary of Discovery. Eurosport owns a wide range of rights across many sports but generally does not bid for premium priced rights such as those to major football leagues." 
+    },
+
+    {
+        "channelName": "Sport TV 1",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/sporttv1_hd_110x110.jpg",
+        "genre": "Sports",
+        "platform": ["TV" , "PC"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "6.50",
+        "description": "SPORT.TV1 started its broadcasts in 1998, being the first Portuguese pay-TV channel. It broadcast mainly soccer, handball, basketball and sports news coverage." 
+    },
+
+    {
+        "channelName": "NHK World",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/nhk_world_110x110.jpg",
+        "genre": "Entertainment",
+        "platform": ["TV" , "PC"],
+        "allowedCountries": ["en" , "jp"],
+        "channelWebsite": "",
+        "channelPrice": "6.50",
+        "description": "NHK World-Japan (also known simply as NHK World) is the international arm of the Japanese state-controlled public broadcaster NHK. Its services are aimed at the overseas market, similar to those offered by other national public-service broadcasters such as the British BBC (BBC World Service, BBC World News, etc.), France 24 or the German DW, among many others. Contents are broadcast through shortwave radio, satellite and cable operators throughout the world, as well as online and through its mobile apps. It is headquartered in Tokyo." 
+    },
+
+    {
         "channelName": "Playboy TV",
         "channelImage": "https://www.meo.pt/PublishingImages/canais/playboy-tv.png",
         "genre": "Adult",
@@ -482,7 +603,57 @@
         "channelWebsite": "",
         "channelPrice": "4.50",
         "description": "Playboy TV is a pay television channel based in the United States." 
+    },
+
+    {
+        "channelName": "HOT TV",
+        "channelImage": "https://www.meo.pt/PublishingImages/canais/hot.png",
+        "genre": "Adult",
+        "platform": ["TV"],
+        "allowedCountries": ["en"],
+        "channelWebsite": "",
+        "channelPrice": "7.50",
+        "description": "HOT TV is a Portuguese pornography premium cable and satellite television network owned by HOT Gold. Its flagship programming are Portuguese pornographic films." 
+    },
+
+    
+    {
+        "channelName": "TPA",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/tpa_internacional_110x110.jpg",
+        "genre": "News-Entertainment",
+        "platform": ["TV"],
+        "allowedCountries": ["pt", "ang"],
+        "channelWebsite": "",
+        "channelPrice": "2.50",
+        "description": "Televisão Pública de Angola E.P. or TPA is the national broadcaster of the Southern African state of Angola. It also operates an international channel TPA Internacional. TPA is headquartered in the capital city Luanda and broadcasts in Portuguese language." 
+    },
+
+    {
+        "channelName": "MCM Pop",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/mcmpop_110x110.jpg",
+        "genre": "Music",
+        "platform": ["TV"],
+        "allowedCountries": ["en", "fr"],
+        "channelWebsite": "",
+        "channelPrice": "2.60",
+        "description": "MCM Pop was a French language music video TV channel owned by MCM Group, a division of Lagardère Active. MCM Pop was closed down on 1 October 2014 at 23:59, in France, to make way for RFM TV, on 2 October at 6pm. In Portugal, MCM Pop continues to issue, only it does not issue any ads or Bumpers. " 
+    },
+    
+    {
+        "channelName": "Trace Urban Music",
+        "channelImage": "https://www.nos.pt/refdata/SiteCollectionImages/Canais/Logos%20110%20x%20110/trace_urban_hd_110x110.jpg",
+        "genre": "Music",
+        "platform": ["TV"],
+        "allowedCountries": ["en", "fr"],
+        "channelWebsite": "",
+        "channelPrice": "1.30",
+        "description": "Trace Urban is a French pay-TV music video television channel owned by TPG Capital. It is the parent channel of the various Trace music channels. It is the third most distributed French television channel in the world, dedicated to urban contemporary music and cultures targeting an audience aged 15–34. " 
     }
+
+
+    
+
+
 
 
 ]
