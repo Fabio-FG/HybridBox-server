@@ -81,7 +81,7 @@ Stream Platforms:
 
 <ul>
     
-    <li>Netflix</li>
+<li>Netflix</li>
 <li>Disney+</li>
 <li>AmazonPrime</li>
 <li>HBO Max</li>
