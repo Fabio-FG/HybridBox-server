@@ -62,7 +62,7 @@ This is an app called Hybrid Box where you can customise your TV streaming servi
 <li>Culinary</li>
 <li>Documentary</li>
 <li>Adult</li> 
-    </ul>
+ </ul>
 
 
 
@@ -93,8 +93,7 @@ Stream Platforms:
 <li>Crunchyroll</li>
 <li>Apple TV+</li>
 <li>Youtube Premium</li>
-    
-    </ul>
+</ul>
 
 
 
