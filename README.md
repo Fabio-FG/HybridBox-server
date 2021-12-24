@@ -93,3 +93,12 @@ Stream Platforms:
 <li>Apple TV+</li>
 <li>Youtube Premium</li>
 </ul>
+
+
+<h2>Backlog</h2>
+
+<ol>
+<li>Multilingual website translation</li>
+<li>Admin Privilege</li>
+<li>More Responsive breakpoints</li>
+</ol>
