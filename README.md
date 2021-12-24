@@ -44,7 +44,7 @@ Live Demo: <a href="https://hybridbox.netlify.app/" target=_blank>Here</a>
 <li>channelWebsite: {type: String},</li>
 <li>platform: [ ],</li>
 <li>allowedCountries: [ ]</li>
-</ul<>>
+</ul>
 
 <h5>Channel model genres</h5>
 
