@@ -5,28 +5,19 @@ This is an app called Hybrid Box where you can customise your TV streaming servi
 
 **User Stories**
 
-- 404: As a user I get to see a 404 page with a feedback message if I try to reach a page that does not exist so that I know it's my fault.
 
-- Signup: As an anonymous user I can sign up on the platform so that I can create and customise my own TV stream package and get the best available deals. 
-
-- Login: As a user I can login to the platform so that I can access my profile and start customising my TV package. 
-
-- Logout: As a logged in user I can logout from the platform so that no one else can use my account. 
-
-- Add channels to a custom package: As a logged in user I can add channels from the list of all the available channels to my package in order to make my own TV stream package.
-
-- Edit channels: As a logged in user I can edit or change my TV package (adding, removing and updating).
-
-- View created and customised TV stream package: As a logged in user I can see my customised TV package.
-
-- View Channels:  This is a public view, as an anon user I can see the available channels for the customisation. 
-
-- View TV deals: This is a public view, as an anon user I can see the pre-made customised TV deals. If I select a pre-made customised deal I am redirected to the sign-up page in order to complete my order.
-
-- View Customised TV stream package prices: As a logged in user, I can see the final price for the package that I made.
-
-- Add new channels/streaming platforms: As an Admin I can add new channels to the available channel list. 
-
+| 404: As a user I get to see a 404 page with a feedback message if I try to reach a page that does not exist so that I know it's my fault.                                                                   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Signup: As an anonymous user I can sign up on the platform so that I can create and customise my own TV stream package and get the best available deals.                                                    |
+| Login: As a user I can login to the platform so that I can access my profile and start customising my TV package.                                                                                           |
+| Logout: As a logged in user I can logout from the platform so that no one else can use my account.                                                                                                          |
+| Add channels to a custom package: As a logged in user I can add channels from the list of all the available channels to my package in order to make my own TV stream package.                               |
+| Edit channels: As a logged in user I can edit or change my TV package (adding, removing and updating).                                                                                                      |
+| View created and customised TV stream package: As a logged in user I can see my customised TV package.                                                                                                      |
+| View Channels:  This is a public view, as an anon user I can see the available channels for the customisation.                                                                                              |
+| View TV deals: This is a public view, as an anon user I can see the pre-made customised TV deals. If I select a pre-made customised deal I am redirected to the sign-up page in order to complete my order. |
+| View Customised TV stream package prices: As a logged in user, I can see the final price for the package that I made.                                                                                       |
+| Add new channels/streaming platforms: As an Admin I can add new channels to the available channel list.                                                                                                     |
 
 
 
@@ -99,6 +90,9 @@ Stream Platforms:
 > Crunchyroll
 > Apple TV+
 > Youtube Premium
+
+
+
 
 
 
