@@ -49,7 +49,7 @@ Live Demo: <a href="https://hybridbox.netlify.app/" target=_blank>Here</a>
 <h5>Channel model genres</h5>
 
 <ul>
-    <li>Generalist</li>
+<li>Generalist</li>
 <li>News</li>
 <li>Government</li>
 <li>Entertainment</li>
@@ -66,14 +66,14 @@ Live Demo: <a href="https://hybridbox.netlify.app/" target=_blank>Here</a>
 
 <h4>Stream Platforms Model</h4>
 
-{
-streamName: {type: String, required: true},
-streamImage: {type: String, default:'defaultImage.jpg'},
-genre: { type: String, required: true},
-streamWebsite: {type: String},
-platform: [ ],
-allowedCountries: [ ]
-}
+<ul>
+<li>streamName: {type: String, required: true},</li>
+<li>streamImage: {type: String, default:'defaultImage.jpg'},</li>
+<li>genre: { type: String, required: true},</li>
+<li>streamWebsite: {type: String},</li>
+<li>platform: [ ],</li>
+<li>allowedCountries: [ ]</li>
+</ul>
 
 Stream Platforms:
 
