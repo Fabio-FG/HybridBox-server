@@ -3,10 +3,11 @@ This is an app called Hybrid Box where you can customise your TV streaming servi
 
 Live Demo: <a href="https://hybridbox.netlify.app/" target=_blank>Here</a>
 
-<h2>User Stories</h2>
 
-| Signup: As an anonymous user I can sign up on the platform so that I can create and customise my own TV stream package and get the best available deals.                                                    |
+
+| User Stories                                                                                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Signup: As an anonymous user I can sign up on the platform so that I can create and customise my own TV stream package and get the best available deals.                                                    |
 | Login: As a user I can login to the platform so that I can access my profile and start customising my TV package.                                                                                           |
 | Logout: As a logged in user I can logout from the platform so that no one else can use my account.                                                                                                          |
 | Add channels to a custom package: As a logged in user I can add channels from the list of all the available channels to my package in order to make my own TV stream package.                               |
