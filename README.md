@@ -1,9 +1,8 @@
-**Description**
-
+<h1>Description</h1>
 This is an app called Hybrid Box where you can customise your TV streaming services. Create your own TV streaming package or choose customised packs. Now you can truly see what you pay for. No more filler channels that come attached to a package in which you have no control over.
 
 
-**User Stories**
+<h2>User Stories</h2>
 
 
 |404: As a user I get to see a 404 page with a feedback message if I try to reach a page that does not exist so that I know it's my fault.                                                                   |
@@ -21,9 +20,9 @@ This is an app called Hybrid Box where you can customise your TV streaming servi
 
 
 
-**Models**
+<h2>Models</h2>
 
-**User Model **
+<h4>User Model</h4>
 
 { 
     name: { type: String, required: true },
@@ -36,7 +35,7 @@ This is an app called Hybrid Box where you can customise your TV streaming servi
     
 }
 
-**Channel Model **
+<h4>Channel Model </h4>
 
 {
   channelName: {type: String, required: true},
@@ -47,25 +46,27 @@ This is an app called Hybrid Box where you can customise your TV streaming servi
   allowedCountries: [ ]
 }
 
-**Channel model genres:**
+<h5>Channel model genres</h5>
 
-> Generalist,
-> News,
-> Government,
-> Entertainment,
-> Children,
-> International,
-> Sport,
-> Music,
-> Online Subscription,
-> Movies,
-> Culinary,
-> Documentary
-> Adult 
+<ul>
+    <li>Generalist</li>
+<li>News</li>
+<li>Government</li>
+<li>Entertainment</li>
+<li>Children</li>
+<li>International</li>
+<li>Sport</li>
+<li>Music</li>
+<li>Online Subscription</li>
+<li>Movies</li>
+<li>Culinary</li>
+<li>Documentary</li>
+<li>Adult</li> 
+    </ul>
 
 
 
-**Stream Platforms Model**
+<h4>Stream Platforms Model</h4>
 
 {
   streamName: {type: String, required: true},
@@ -78,18 +79,22 @@ This is an app called Hybrid Box where you can customise your TV streaming servi
 
 Stream Platforms:
 
-> Netflix
-> Disney+
-> AmazonPrime
-> HBO Max
-> Paramount+
-> Tencent Video
-> iQIYI
-> Hulu
-> Discovery +
-> Crunchyroll
-> Apple TV+
-> Youtube Premium
+<ul>
+    
+    <li>Netflix</li>
+<li>Disney+</li>
+<li>AmazonPrime</li>
+<li>HBO Max</li>
+<li>Paramount+</li>
+<li>Tencent Video</li>
+<li>iQIYI</li>
+<li>Hulu</li>
+<li>Discovery +</li>
+<li>Crunchyroll</li>
+<li>Apple TV+</li>
+<li>Youtube Premium</li>
+    
+    </ul>
 
 
 
