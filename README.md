@@ -6,7 +6,7 @@ This is an app called Hybrid Box where you can customise your TV streaming servi
 **User Stories**
 
 
-| 404: As a user I get to see a 404 page with a feedback message if I try to reach a page that does not exist so that I know it's my fault.                                                                   |
+|404: As a user I get to see a 404 page with a feedback message if I try to reach a page that does not exist so that I know it's my fault.                                                                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Signup: As an anonymous user I can sign up on the platform so that I can create and customise my own TV stream package and get the best available deals.                                                    |
 | Login: As a user I can login to the platform so that I can access my profile and start customising my TV package.                                                                                           |
