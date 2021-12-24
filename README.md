@@ -22,16 +22,18 @@ Live Demo: <a href="https://hybridbox.netlify.app/" target=_blank>Here</a>
 
 <h4>User Model</h4>
 
+<ul>
 {
-name: { type: String, required: true },
-email: { type: String, unique: true, required: true },
-password: { type: String, required: true },
-role: { type: String, enum: \["admin", "user"\], default: "user" },
-profileImage: { type: String, default: "https://i.imgur.com/yWHfhiG.png" },
-listOfChannels: [{ type: Schema.Types.ObjectId, ref:'Channel'} ],
-listOfStreams: [{ type: Schema.Types.ObjectId, ref:'Stream'} ]
+<li>name: { type: String, required: true },</li>
+<li>email: { type: String, unique: true, required: true },</li>
+<li>password: { type: String, required: true },</li>
+<li>role: { type: String, enum: \["admin", "user"\], default: "user" },</li>
+<li>profileImage: { type: String, default: "https://i.imgur.com/yWHfhiG.png" },</li>
+<li>listOfChannels: [{ type: Schema.Types.ObjectId, ref:'Channel'} ],</li>
+<li>listOfStreams: [{ type: Schema.Types.ObjectId, ref:'Stream'} ]</li>
 
 }
+</ul>
 
 <h4>Channel Model </h4>
 
