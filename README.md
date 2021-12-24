@@ -23,7 +23,7 @@ Live Demo: <a href="https://hybridbox.netlify.app/" target=_blank>Here</a>
 <h4>User Model</h4>
 
 <ul>
-{
+
 <li>name: { type: String, required: true },</li>
 <li>email: { type: String, unique: true, required: true },</li>
 <li>password: { type: String, required: true },</li>
@@ -32,19 +32,19 @@ Live Demo: <a href="https://hybridbox.netlify.app/" target=_blank>Here</a>
 <li>listOfChannels: [{ type: Schema.Types.ObjectId, ref:'Channel'} ],</li>
 <li>listOfStreams: [{ type: Schema.Types.ObjectId, ref:'Stream'} ]</li>
 
-}
+
 </ul>
 
 <h4>Channel Model </h4>
 
-{
-channelName: {type: String, required: true},
-channelImage: {type: String, default:'defaultImage.jpg'},
-genre: { type: String, required: true},
-channelWebsite: {type: String},
-platform: [ ],
-allowedCountries: [ ]
-}
+<ul>
+<li>channelName: {type: String, required: true},</li>
+<li>channelImage: {type: String, default:'defaultImage.jpg'},</li>
+<li>genre: { type: String, required: true},</li>
+<li>channelWebsite: {type: String},</li>
+<li>platform: [ ],</li>
+<li>allowedCountries: [ ]</li>
+</ul<>>
 
 <h5>Channel model genres</h5>
 
